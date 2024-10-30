@@ -1,18 +1,15 @@
+import React from 'react';
+import Layout from './components/Layout/Layout';
+import AppRoutes from './routes/AppRoutes';
+import { BrowserRouter } from 'react-router-dom';
+
 function App() {
   return (
-    <>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          textAlign: 'center',
-          alignItems: 'center',
-          height: '100vh',
-        }}
-      >
-        <h1>Setting Up My E-Commerce App </h1>
-      </div>
-    </>
+    <BrowserRouter>
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </BrowserRouter>
   );
 }
 

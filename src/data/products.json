@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Apple MacBook Air M2",
+    "imageSrc": "../assets/item1.png",
+    "description": "The MacBook Air M2 features Apple's latest M2 chip, offering faster performance and longer battery life in a sleek design.",
+    "price": 1199.99
+  },
+  {
+    "name": "Dell XPS 13 (2023)",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Dell XPS 13 (2023) is a compact laptop with an InfinityEdge display and powerful Intel processors.",
+    "price": 1399.99
+  },
+  {
+    "name": "Lenovo Yoga 9i",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Lenovo Yoga 9i is a premium 2-in-1 laptop with a stunning OLED display and versatile design.",
+    "price": 1499.99
+  },
+  {
+    "name": "HP Envy x360",
+    "imageSrc": "../assets/item1.png",
+    "description": "The HP Envy x360 is a flexible laptop with powerful performance and an attractive design.",
+    "price": 1299.99
+  },
+  {
+    "name": "Apple iPhone 14 Pro",
+    "imageSrc": "../assets/item1.png",
+    "description": "The iPhone 14 Pro features advanced camera capabilities and the A16 Bionic chip for exceptional performance.",
+    "price": 1099.99
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Galaxy S23 Ultra boasts a stunning display, top-tier camera, and S Pen support for ultimate productivity.",
+    "price": 1199.99
+  },
+  {
+    "name": "Google Pixel 7 Pro",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Pixel 7 Pro features an AI-powered camera and seamless integration with Google services.",
+    "price": 899.99
+  },
+  {
+    "name": "OnePlus 11",
+    "imageSrc": "../assets/item1.png",
+    "description": "The OnePlus 11 delivers flagship performance with a high refresh rate display and impressive camera capabilities.",
+    "price": 749.99
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Sony WH-1000XM5 offers industry-leading noise cancellation and premium sound quality.",
+    "price": 399.99
+  },
+  {
+    "name": "Apple AirPods Max",
+    "imageSrc": "../assets/item1.png",
+    "description": "AirPods Max provide an immersive audio experience with Active Noise Cancellation and spatial audio support.",
+    "price": 549.99
+  },
+  {
+    "name": "Bose QuietComfort 45",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Bose QuietComfort 45 headphones deliver exceptional comfort and high-quality sound with effective noise cancellation.",
+    "price": 329.99
+  },
+  {
+    "name": "Jabra Elite 85t",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Jabra Elite 85t earbuds provide customizable noise cancellation and superior sound quality.",
+    "price": 229.99
+  },
+  {
+    "name": "Apple Watch Series 8",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Apple Watch Series 8 features advanced health tracking, fitness features, and a stunning display.",
+    "price": 399.99
+  },
+  {
+    "name": "Samsung Galaxy Watch 5",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Galaxy Watch 5 offers fitness tracking and smart features in a sleek, stylish design.",
+    "price": 279.99
+  },
+  {
+    "name": "Oculus Quest 2",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Oculus Quest 2 is a standalone VR headset with a wide range of games and experiences.",
+    "price": 299.99
+  },
+  {
+    "name": "GoPro HERO10 Black",
+    "imageSrc": "../assets/item1.png",
+    "description": "The HERO10 Black is an action camera that captures stunning 5.3K video and 23MP photos.",
+    "price": 399.99
+  },
+  {
+    "name": "Amazon Echo Show 10",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Echo Show 10 features a 10-inch HD screen and Alexa integration for smart home control.",
+    "price": 249.99
+  },
+  {
+    "name": "Nest Learning Thermostat",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Nest Learning Thermostat helps save energy by learning your schedule and adjusting temperatures automatically.",
+    "price": 129.99
+  },
+  {
+    "name": "Kindle Oasis",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Kindle Oasis is an advanced e-reader with an adjustable warm light and ergonomic design.",
+    "price": 249.99
+  },
+  {
+    "name": "SanDisk Extreme Portable SSD",
+    "imageSrc": "../assets/item1.png",
+    "description": "The SanDisk Extreme Portable SSD offers high-speed storage in a durable, compact design.",
+    "price": 139.99
+  },
+  {
+    "name": "TP-Link Deco X20 WiFi 6",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Deco X20 provides fast and reliable WiFi 6 coverage throughout your home.",
+    "price": 199.99
+  },
+  {
+    "name": "Razer Kraken X Lite",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Razer Kraken X Lite is a lightweight gaming headset with immersive sound and comfort.",
+    "price": 49.99
+  },
+  {
+    "name": "Logitech G502 HERO",
+    "imageSrc": "../assets/item1.png",
+    "description": "The G502 HERO is a customizable gaming mouse with advanced features for serious gamers.",
+    "price": 79.99
+  },
+  {
+    "name": "Belkin MagSafe Charger",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Belkin MagSafe Charger provides fast and efficient wireless charging for compatible devices.",
+    "price": 39.99
+  },
+  {
+    "name": "Anker PowerCore 26800mAh",
+    "imageSrc": "../assets/item1.png",
+    "description": "The Anker PowerCore 26800mAh is a high-capacity portable charger for multiple devices.",
+    "price": 49.99
+  },
+  {
+    "name": "JBL Charge 5",
+    "imageSrc": "../assets/item1.png",
+    "description": "The JBL Charge 5 is a portable Bluetooth speaker with powerful sound and long battery life.",
+    "price": 179.99
+  }
+]
