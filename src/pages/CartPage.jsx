@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import CartSummary from '../components/CartSummary/CartSummary';
 
 const CartPage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <CartSummary />
+    </div>
+  );
 };
 
 export default CartPage;
