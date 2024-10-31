@@ -26,7 +26,7 @@ const ProductCard = ({ id, name, imageSrc, price }) => {
         <button onClick={() => updateQuantity(-1)}>-</button>
         <span>{quantity}</span>
         <button onClick={() => updateQuantity(1)}>+</button>
-        <button onClick={() => addToCart({ id, name, price }, quantity)}>Add to Cart</button>
+        <button onClick={() => addToCart({ id, name, imageSrc, price }, quantity)}>Add to Cart</button>
       </div>
     </div>
   );

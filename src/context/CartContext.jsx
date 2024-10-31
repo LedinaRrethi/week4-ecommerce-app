@@ -17,6 +17,8 @@ export const CartProvider = ({ children }) => {
     });
   };
 
+  console.log('Cart', cart);
+
   return <CartContext.Provider value={{ cart, addToCart }}>{children}</CartContext.Provider>;
 };
 
