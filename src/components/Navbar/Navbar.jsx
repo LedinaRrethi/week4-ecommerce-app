@@ -3,9 +3,16 @@ import { Link } from 'react-router-dom';
 import { FaCartShopping } from 'react-icons/fa6';
 import { MdOutlineWbSunny } from 'react-icons/md';
 import { IoMdMoon } from 'react-icons/io';
+import { useTheme } from '../../context/ThemeContext';
+import { useCart } from '../../context/CartContext';
+import { THEMES } from '../../config/themeConfig';
 import './navbar.css';
 
 const Navbar = () => {
+  const { theme, toggleTheme } = useTheme();
+  const { cart } = useCart();
+  const totalCount = cart.reduce((acc, item) => acc + item.quantity, 0);
+
   return (
     <div className="navbar">
       <Link to="/" className="navbar-link">
@@ -14,33 +21,14 @@ const Navbar = () => {
 
       <Link to="/cart" className="navbar-cart">
         <FaCartShopping />
-        {/* <IoMdMoon /> */}
+        <span className="cart-count">{totalCount}</span>
       </Link>
 
-      <MdOutlineWbSunny style={{ marginLeft: '20px' }} />
+      <button onClick={toggleTheme} className="theme-toggle" aria-label="Toggle theme">
+        {theme === THEMES.LIGHT ? <IoMdMoon /> : <MdOutlineWbSunny />}
+      </button>
     </div>
   );
 };
 
 export default Navbar;
-
-// src/components/Navbar.js
-// import React from 'react';
-// import useTheme from '../../hooks/useTheme';
-// import useCart from '../../hooks/useCart';
-
-// const Navbar = () => {
-//   const { theme, toggleTheme } = useTheme();
-//   const { cart } = useCart();
-//   const itemCount = cart.reduce((count, item) => count + item.quantity, 0);
-
-//   return (
-//     <nav style={{ padding: '10px', display: 'flex', justifyContent: 'space-between' }}>
-//       <div>My Store</div>
-//       <button onClick={toggleTheme}>Theme: {theme}</button>
-//       <div>Cart ({itemCount})</div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;

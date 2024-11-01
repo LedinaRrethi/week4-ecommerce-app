@@ -1,12 +1,16 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import { useTheme } from '../../context/ThemeContext';
+import '../Layout/layout.css';
 
 const Layout = (props) => {
+  const { theme } = useTheme();
+
   return (
-    <div>
+    <div className="content-wrapper" style={{ backgroundColor: theme.backgroundColor, color: theme.textColor }}>
       <Navbar />
-      {props.children}
+      <main className="main-content">{props.children}</main>
       <Footer />
     </div>
   );

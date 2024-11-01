@@ -3,16 +3,19 @@ import Layout from './components/Layout/Layout';
 import AppRoutes from './routes/AppRoutes';
 import { BrowserRouter } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <CartProvider>
-      <BrowserRouter>
-        <Layout>
-          <AppRoutes />
-        </Layout>
-      </BrowserRouter>
-    </CartProvider>
+    <ThemeProvider>
+      <CartProvider>
+        <BrowserRouter>
+          <Layout>
+            <AppRoutes />
+          </Layout>
+        </BrowserRouter>
+      </CartProvider>
+    </ThemeProvider>
   );
 }
 

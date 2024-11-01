@@ -1,27 +1,36 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useMemo, useCallback } from 'react';
+import useLocalStorage from '../hooks/useLocalStorage';
 
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useLocalStorage('cart', []);
 
-  const addToCart = (product, quantity) => {
-    setCart((prevCart) => {
-      const existingItem = prevCart.find((item) => item.id === product.id);
-      if (existingItem) {
-        return prevCart.map((item) =>
-          item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
-        );
-      }
-      return [...prevCart, { ...product, quantity }];
-    });
-  };
+  const addToCart = useCallback(
+    (product, quantity) => {
+      setCart((prevCart) => {
+        const existingItem = prevCart.find((item) => item.id === product.id);
+        if (existingItem) {
+          return prevCart.map((item) =>
+            item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
+          );
+        }
+        return [...prevCart, { ...product, quantity }];
+      });
+    },
+    [setCart]
+  );
 
-  console.log('Cart', cart);
+  const removeFromCart = useCallback(
+    (productId) => {
+      setCart((prevCart) => prevCart.filter((item) => item.id !== productId));
+    },
+    [setCart]
+  );
 
-  return <CartContext.Provider value={{ cart, addToCart }}>{children}</CartContext.Provider>;
+  const value = useMemo(() => ({ cart, addToCart, removeFromCart }), [cart, addToCart, removeFromCart]);
+
+  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 };
 
-export const useCart = () => {
-  return useContext(CartContext);
-};
+export const useCart = () => useContext(CartContext);

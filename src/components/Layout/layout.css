@@ -1,0 +1,10 @@
+.content-wrapper {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+}
+
+.main-content {
+  flex: 1;
+}

@@ -2,183 +2,176 @@
   {
     "id": "1",
     "name": "MacBook Air",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Apple's redesigned MacBook Air offers a seamless experience with the powerful M2 chip, combining style and exceptional performance in a lightweight package ideal for both professionals and students. Its battery life and advanced thermal design ensure efficiency and minimal overheating, making it an excellent choice for on-the-go productivity.",
     "price": 1199.99
   },
   {
     "id": "2",
     "name": "Dell XPS 13",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "The latest Dell XPS 13 provides a nearly borderless display, enhanced with Intel's newest processors for unmatched speed and clarity in a compact, durable frame. Known for its vibrant screen and high-quality build, this model balances power with portability, making it a prime option for frequent travelers and creators alike.",
     "price": 1399.99
   },
   {
     "id": "3",
     "name": "Yoga 9i",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Lenovo’s Yoga 9i stands out with its flexible 2-in-1 design and rich OLED display, delivering impressive visuals and adaptability. Engineered for versatility, it allows users to switch between laptop and tablet modes effortlessly. This model also includes robust audio and fast charging, ensuring an immersive multimedia experience.",
     "price": 1499.99
   },
   {
     "id": "4",
     "name": "HP Envy",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "HP’s Envy x360 combines premium build quality with flexible design, featuring responsive touch functionality and solid hardware for multitasking and creative work. Its 360-degree hinge and enhanced graphics make it ideal for design enthusiasts seeking both power and portability in one stylish device.",
     "price": 1299.99
   },
   {
     "id": "5",
     "name": "iPhone 14 Pro",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Apple’s iPhone 14 Pro takes smartphone photography to new heights with its enhanced camera technology and advanced A16 Bionic chip, ensuring smooth performance even in intensive applications. Known for its superior display and battery efficiency, this phone is crafted for users prioritizing quality and reliability.",
     "price": 1099.99
   },
   {
     "id": "6",
     "name": "Galaxy S23 Ultra",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Samsung’s Galaxy S23 Ultra delivers stunning visuals with its high-resolution screen and extensive camera capabilities, perfect for those interested in capturing life’s finest details. Equipped with the S Pen, it serves as a productivity tool as well, enabling quick notes and creative expression on the go.",
     "price": 1199.99
   },
   {
     "id": "7",
     "name": "Pixel 7 Pro",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Google’s Pixel 7 Pro features an AI-enhanced camera that excels in low-light settings, and integrates deeply with Google’s ecosystem for a seamless user experience. The device is built for efficiency, offering fast updates and tight security, making it a top choice for Android enthusiasts.",
     "price": 899.99
   },
   {
     "id": "8",
     "name": "OnePlus 11",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "OnePlus 11 combines flagship-level speed and efficiency with a stunning high refresh rate display, designed for smooth scrolling and gaming experiences. With its sleek design and versatile camera, it is an appealing choice for users wanting high performance without the bulk.",
     "price": 749.99
   },
   {
     "id": "9",
     "name": "Sony WH-1000XM5",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Sony’s WH-1000XM5 headphones redefine audio quality with industry-leading noise-cancellation, offering an immersive listening experience. Built with comfort in mind, they are suitable for long listening sessions, whether you’re commuting or simply relaxing at home.",
     "price": 399.99
   },
   {
     "id": "10",
     "name": "AirPods Max",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Apple’s AirPods Max provide an exceptional audio experience with spatial audio capabilities and Active Noise Cancellation. Designed with premium materials, they combine style with superior sound, ensuring an immersive experience for audiophiles and casual listeners alike.",
     "price": 549.99
   },
   {
     "id": "11",
     "name": "QuietComfort 45",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Bose’s QuietComfort 45 headphones offer a comfortable fit and exceptional sound quality, featuring effective noise-cancellation to block out distractions. Ideal for travel or home use, they provide hours of listening with minimal pressure on the ears, catering to audiophiles and casual users alike.",
     "price": 329.99
   },
   {
     "id": "12",
     "name": "Elite 85t",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Jabra’s Elite 85t earbuds bring adjustable noise cancellation and rich sound quality, suited for diverse listening environments. Compact and durable, they are designed for an active lifestyle, with customizable settings for maximum comfort and convenience.",
     "price": 229.99
   },
   {
     "id": "13",
     "name": "Apple Watch 8",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Apple’s Watch Series 8 brings advanced health and fitness tracking features along with an eye-catching display, seamlessly integrating with other Apple devices. With enhanced sensors and user-friendly software, it is ideal for tracking wellness goals and staying connected on the go.",
     "price": 399.99
   },
   {
     "id": "14",
     "name": "Galaxy Watch 5",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Samsung’s Galaxy Watch 5 merges sleek aesthetics with powerful fitness tracking capabilities, including advanced sleep tracking and health insights. With customizable watch faces and long battery life, it suits both casual and fitness-oriented users looking for a stylish wearable.",
     "price": 279.99
   },
   {
     "id": "15",
     "name": "Quest 2",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Meta’s Oculus Quest 2 offers a standalone VR experience with a vast selection of immersive games and virtual environments. Lightweight and versatile, it’s a gateway to VR without needing a separate computer, making it accessible for all levels of VR enthusiasts.",
     "price": 299.99
   },
   {
     "id": "16",
     "name": "GoPro HERO10",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "The HERO10 Black action camera captures impressive 5.3K video and 23MP photos with advanced stabilization, ideal for adventurous spirits. Its rugged design and waterproof build make it a reliable companion for capturing high-quality footage on the go.",
     "price": 399.99
   },
   {
     "id": "17",
     "name": "Echo Show 10",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Amazon’s Echo Show 10 provides a dynamic smart display experience with Alexa integration, enabling hands-free control over compatible smart home devices. Its rotating screen follows you, perfect for video calls or watching content while multitasking.",
     "price": 249.99
   },
   {
     "id": "18",
     "name": "Nest Thermostat",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "Google’s Nest Thermostat intelligently learns your schedule to optimize heating and cooling, helping you save on energy bills while maintaining a comfortable home environment. Its user-friendly app offers remote control, making it a modern home essential.",
     "price": 129.99
   },
   {
     "id": "19",
     "name": "Kindle Oasis",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "The Kindle Oasis brings a premium reading experience with its ergonomic design and adjustable warm light. Designed for avid readers, its e-ink display and long battery life make it ideal for extended reading sessions without eye strain.",
     "price": 249.99
   },
   {
     "id": "20",
     "name": "SanDisk SSD",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "SanDisk’s Extreme Portable SSD offers lightning-fast data transfer in a compact and rugged design, making it perfect for on-the-go storage solutions. With impressive durability and ample space, it caters to photographers, videographers, and anyone needing quick access to their files.",
     "price": 139.99
   },
   {
     "id": "21",
     "name": "Deco X20",
-    "imageSrc": "../assets/item1.png",
+    "imageSrc": "../assets/laptop.svg",
     "description": "TP-Link’s Deco X20 WiFi 6 mesh system provides seamless, high-speed coverage across your home, with easy setup and management through its app. Designed for modern households, it ensures strong connectivity in every room, making it ideal for work, study, and streaming.",
     "price": 199.99
   },
   {
     "id": "22",
-    "name": "Kraken X Lite",
-    "imageSrc": "../assets/item1.png",
-    "description": "Razer’s Kraken X Lite is a lightweight gaming headset that offers high-quality sound and long-lasting comfort, ideal for extended gaming sessions. Its durable design and adjustable headband make it a favorite among gamers looking for an affordable yet effective audio solution.",
-    "price": 49.99
+    "name": "Nest Hub",
+    "imageSrc": "../assets/laptop.svg",
+    "description": "Google’s Nest Hub serves as a smart home controller and digital photo frame, integrating smoothly with other Google devices for an enhanced home experience. Its intuitive touch screen and voice commands offer users a convenient way to manage their smart home ecosystem.",
+    "price": 99.99
   },
   {
     "id": "23",
-    "name": "G502 HERO",
-    "imageSrc": "../assets/item1.png",
-    "description": "Logitech’s G502 HERO gaming mouse offers advanced sensor technology and customizable buttons, suited for both casual and competitive gamers. With ergonomic design and adjustable weights, it provides precision and comfort during long gaming sessions.",
-    "price": 79.99
+    "name": "Razer Viper Ultimate",
+    "imageSrc": "../assets/laptop.svg",
+    "description": "The Razer Viper Ultimate is a wireless gaming mouse designed for competitive gaming, featuring ultra-lightweight construction and customizable RGB lighting. Its high-precision sensor and fast response time make it a must-have for gamers seeking performance and speed.",
+    "price": 149.99
   },
   {
     "id": "24",
-    "name": "MagSafe Charger",
-    "imageSrc": "../assets/item1.png",
-    "description": "Belkin’s MagSafe Charger enables fast and efficient wireless charging for compatible Apple devices. Compact and convenient, it ensures a secure magnetic connection, making it perfect for daily use at home or on the go.",
-    "price": 39.99
+    "name": "Logitech MX Master 3",
+    "imageSrc": "../assets/laptop.svg",
+    "description": "Logitech’s MX Master 3 is an advanced wireless mouse designed for productivity, featuring ergonomic design and customizable buttons for quick access to frequently used functions. Its high precision and battery efficiency make it a top choice for professionals.",
+    "price": 99.99
   },
   {
     "id": "25",
-    "name": "PowerCore",
-    "imageSrc": "../assets/item1.png",
-    "description": "Anker’s PowerCore 26800mAh is a powerful portable charger with enough capacity to recharge multiple devices, ensuring you’re always connected. Its fast-charging capabilities and sturdy build make it a reliable travel companion.",
-    "price": 49.99
-  },
-  {
-    "id": "26",
-    "name": "JBL Charge 5",
-    "imageSrc": "../assets/item1.png",
-    "description": "The JBL Charge 5 Bluetooth speaker provides exceptional sound quality with deep bass, long battery life, and IP67 waterproofing, making it perfect for outdoor activities and gatherings. Its power bank feature also allows for device charging on the go.",
-    "price": 179.99
+    "name": "Razer BlackWidow V3",
+    "imageSrc": "../assets/laptop.svg",
+    "description": "The Razer BlackWidow V3 mechanical keyboard offers customizable RGB lighting and responsive tactile feedback, catering to gamers and typists alike. With robust build quality and programmable keys, it enhances any gaming or working experience.",
+    "price": 169.99
   }
 ]

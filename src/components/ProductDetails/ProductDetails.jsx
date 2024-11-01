@@ -1,7 +1,7 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
+import './ProductDetails.css';
 
 const ProductDetails = () => {
   const [products, setProducts] = useState([]);
@@ -14,9 +14,7 @@ const ProductDetails = () => {
   const foundProducts = products.length === 0 ? [] : products.find((item) => item.id === productId);
 
   const hasProducts = () => {
-    console.log('foundddd', foundProducts);
-    const found = foundProducts !== undefined;
-    return found;
+    return foundProducts !== undefined;
   };
 
   const [quantity, setQuantity] = useState(1);
@@ -27,11 +25,9 @@ const ProductDetails = () => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        console.log(response);
         return response.json();
       })
       .then((data) => {
-        console.log('Fetched Data', data);
         setProducts(data);
         setLoading(false);
       })
@@ -56,22 +52,30 @@ const ProductDetails = () => {
     setQuantity((prev) => Math.max(1, prev + value));
   };
 
-  console.log('Found prod', foundProducts);
-
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>{foundProducts.name}</h1>
-      <img src={foundProducts.imageSrc} alt={foundProducts.name} style={{ width: '400px', height: 'auto' }} />
-      <p>{foundProducts.description}</p>
-      <p>Price: ${foundProducts.price}</p>
+    <>
+      <h1 style={{ textAlign: 'center' }}>Product Details</h1>
+      <br />
+      <div className="product-container">
+        <div className="product-image">
+          <img src={foundProducts.imageSrc} alt={foundProducts.name} />
+        </div>
+        <div className="product-details">
+          <h1>{foundProducts.name}</h1>
+          <p>{foundProducts.description}</p>
+          <p>Price: ${foundProducts.price}</p>
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <button onClick={() => updateQuantity(-1)}>-</button>
-        <span>{quantity}</span>
-        <button onClick={() => updateQuantity(1)}>+</button>
-        <button onClick={() => addToCart(foundProducts, quantity)}>Add to Cart</button>
+          <div className="quantity-controls">
+            <button onClick={() => updateQuantity(-1)}>-</button>
+            <span>{quantity}</span>
+            <button onClick={() => updateQuantity(1)}>+</button>
+            <button className="add-to-cart-button" onClick={() => addToCart(foundProducts, quantity)}>
+              Add to Cart
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
